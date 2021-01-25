@@ -1,0 +1,4 @@
+/* Code tidied up by ScrapBook */
+.btn.active, .btn:active { background-image: none; }
+@media (max-width: 767px) {
+}
