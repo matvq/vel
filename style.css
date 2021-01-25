@@ -1,0 +1,287 @@
+/* Code tidied up by ScrapBook */
+@font-face {
+  font-family: "HeliosCondRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("HeliosCondRegular.eot") format("embedded-opentype"), url("HeliosCondRegular.woff") format("woff"), url("HeliosCondRegular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "HeliosCondItalic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("HeliosCondItalic.eot") format("embedded-opentype"), url("HeliosCondItalic.woff") format("woff"), url("HeliosCondItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "HeliosCondBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("HeliosCondBold.eot") format("embedded-opentype"), url("HeliosCondBold.woff") format("woff"), url("HeliosCondBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "HeliosCondBoldItalic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("HeliosCondBoldItalic.eot") format("embedded-opentype"), url("HeliosCondBoldItalic.woff") format("woff"), url("HeliosCondBoldItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "HeliosCondBlack";
+  font-style: normal;
+  font-weight: normal;
+  src: url("helioscondblack-black.ttf") format("truetype");
+}
+@media (max-width: 767px) {
+  html .modal-dialog { margin: 20px 0px; }
+}
+@font-face {
+  font-family: "PFSquareSansPro-ExtraBlack";
+  font-style: normal;
+  font-weight: 900;
+  src: local("PFSquareSansPro-ExtraBlack"), url("PFSquareSansPro-ExtraBlack.eot") format("embedded-opentype"), url("PFSquareSansPro-ExtraBlack.woff") format("woff"), url("PFSquareSansPro-ExtraBlack.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PFSquareSansPro-Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: local("PFSquareSansPro-Medium"), url("PFSquareSansPro-Medium.eot") format("embedded-opentype"), url("PFSquareSansPro-Medium.woff") format("woff"), url("PFSquareSansPro-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PFSquareSansPro-Bold";
+  font-style: normal;
+  font-weight: bold;
+  src: local("PFSquareSansPro-Bold"), url("PFSquareSansPro-Bold.eot") format("embedded-opentype"), url("PFSquareSansPro-Bold.woff") format("woff"), url("PFSquareSansPro-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PFSquareSansPro-ExtraBlackItalic";
+  font-style: italic;
+  font-weight: 900;
+  src: local("PFSquareSansPro-ExtraBlackItalic"), url("PFSquareSansPro-ExtraBlackItalic.eot") format("embedded-opentype"), url("PFSquareSansPro-ExtraBlackItalic.woff") format("woff"), url("PFSquareSansPro-ExtraBlackItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PFSquareSansPro-Thin";
+  font-style: normal;
+  font-weight: 100;
+  src: local("PFSquareSansPro-Thin"), url("PFSquareSansPro-Thin.eot") format("embedded-opentype"), url("PFSquareSansPro-Thin.woff") format("woff"), url("PFSquareSansPro-Thin.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PFSquareSansPro-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("PFSquareSansPro-Regular"), url("PFSquareSansPro-Regular.eot") format("embedded-opentype"), url("PFSquareSansPro-Regular.woff") format("woff"), url("PFSquareSansPro-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PFSquareSansPro-MediumItalic";
+  font-style: italic;
+  font-weight: 500;
+  src: local("PFSquareSansPro-MediumItalic"), url("PFSquareSansPro-MediumItalic.eot") format("embedded-opentype"), url("PFSquareSansPro-MediumItalic.woff") format("woff"), url("PFSquareSansPro-MediumItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PFSquareSansPro-Italic";
+  font-style: italic;
+  font-weight: normal;
+  src: local("PFSquareSansPro-Italic"), url("PFSquareSansPro-Italic.eot") format("embedded-opentype"), url("PFSquareSansPro-Italic.woff") format("woff"), url("PFSquareSansPro-Italic_001.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PFSquareSansPro-BoldItalic";
+  font-style: italic;
+  font-weight: bold;
+  src: local("PFSquareSansPro-BoldItalic"), url("PFSquareSansPro-BoldItalic.eot") format("embedded-opentype"), url("PFSquareSansPro-BoldItalic.woff") format("woff"), url("PFSquareSansPro-BoldItalic_001.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PFSquareSansPro-LightItalic";
+  font-style: italic;
+  font-weight: 300;
+  src: local("PFSquareSansPro-LightItalic"), url("PFSquareSansPro-LightItalic.eot") format("embedded-opentype"), url("PFSquareSansPro-LightItalic.woff") format("woff"), url("PFSquareSansPro-LightItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PFSquareSansPro-Light";
+  font-style: normal;
+  font-weight: 300;
+  src: local("PFSquareSansPro-Light"), url("PFSquareSansPro-Light.eot") format("embedded-opentype"), url("PFSquareSansPro-Light.woff") format("woff"), url("PFSquareSansPro-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PFSquareSansPro-ThinItalic";
+  font-style: italic;
+  font-weight: 100;
+  src: local("PFSquareSansPro-ThinItalic"), url("PFSquareSansPro-ThinItalic.eot") format("embedded-opentype"), url("PFSquareSansPro-ThinItalic.woff") format("woff"), url("PFSquareSansPro-ThinItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PFSquareSansPro-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("PFSquareSansPro-Bold_001.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PFSquareSansPro-BoldItalic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("PFSquareSansPro-BoldItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PFSquareSansPro-Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("PFSquareSansPro-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "HeliosCondBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("HeliosCondBold.eot") format("embedded-opentype"), url("HeliosCondBold.woff") format("woff"), url("HeliosCondBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "HeliosCondBoldItalic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("HeliosCondBoldItalic.eot") format("embedded-opentype"), url("HeliosCondBoldItalic.woff") format("woff"), url("HeliosCondBoldItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "HeliosCondBlack";
+  font-style: normal;
+  font-weight: normal;
+  src: url("helioscondblack-black.ttf") format("truetype");
+}
+html body { opacity: 1 !important; }
+* { font-family: "Arial"; outline: medium none !important; }
+.loading_ajax_icon { position: fixed; width: 100%; height: 100%; display: none; z-index: 999999; top: 0px; left: 0px; background-color: rgba(0, 0, 0, 0.5); }
+.loading_ajax_icon img { width: 50px; height: 50px; position: absolute; top: 50%; left: 50%; margin-left: -25px; margin-top: -25px; }
+.fwb { font-weight: bold; }
+.tal { text-align: left; }
+.tar { text-align: right; }
+.w100 { width: 100%; }
+.header { position: relative; padding: 20px 0px; }
+@media (min-width: 768px) and (max-width: 991px) {
+}
+@media (min-width: 992px) {
+  .bottomheadercontainer, .topheadercontainer, .logocontainer, .headerbackground, .header {  }
+}
+@media (max-width: 991px) {
+  .wrapper > .content { padding-left: 15px; padding-right: 15px; }
+  .header, .logocontainer, .headerbackground {  }
+}
+@media (max-width: 767px) {
+  .header, .logocontainer, .headerbackground {  }
+}
+@media (max-width: 991px) {
+}
+.closelightbox { display: none; }
+.paddingheadernews { padding: 0px; }
+@media (max-width: 1199px) {
+}
+@media (min-width: 1200px) {
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+}
+@media (max-width: 767px) {
+}
+@media (max-width: 650px) {
+}
+@media (max-width: 767px) {
+}
+.modal .modal-content { border-radius: 0px; }
+.modal .modal-header { border: medium none; background-color: rgb(197, 22, 29); color: rgb(255, 255, 255); padding: 10px; }
+.modal-body { padding-top: 30px; }
+.modal-footer { border-top: medium none; }
+@media (min-width: 1200px) {
+  body .modal .modal-header { padding-left: 75px; }
+  body .modal .modal-body { padding-left: 75px; padding-right: 75px; }
+}
+@media (max-width: 1199px) {
+}
+@media (min-width: 1000px) and (max-width: 1370px) {
+}
+@media (max-width: 999px) {
+}
+html, body { min-height: 100%; height: 100%; }
+.wrapper { min-height: 100%; margin-bottom: -90px; }
+@media (max-width: 767px) {
+}
+@media (max-width: 400px) {
+}
+@media (max-width: 767px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 768px) and (max-width: 991px) {
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+@media (min-width: 1200px) {
+}
+@media (max-width: 999px) {
+}
+@media (min-width: 1000px) {
+}
+.mainpage_new * { font-size: 12px; }
+.mainpage_new { height: 100%; margin-bottom: 0px !important; overflow: hidden; }
+.newpage_main .header { margin-top: 10px; }
+.wrapper * { font-size: 14px; }
+.headermenu_container { line-height: 30px; width: 100%; background-color: rgb(197, 22, 29); text-align: center; margin-top: 7px; padding: 7px; }
+.shadow_main_new { box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.3); z-index: 10; }
+.header { position: relative; top: 0px; left: 0px; margin-top: 0px; padding-top: 10px; background-color: rgb(255, 255, 255); z-index: 100; }
+.headermenu_container ul { padding: 0px; margin: 0px; }
+.headermenu_container ul li { padding: 0px; margin: 0px; display: inline-block; }
+.headermenu_container .headermenu_item { display: inline-block; padding: 0px 15px; text-transform: uppercase; border-radius: 30px; color: rgb(255, 255, 255); font-size: 1.3em; font-family: "PFSquareSansPro-Medium"; }
+.headermenu_container .headermenu_item:hover { background-color: rgb(255, 255, 255); color: rgb(197, 22, 29); text-decoration: none; }
+.buttonheader_zones:focus, .buttonheader:focus, .mainheadertable_new .headerbutton_red:focus { text-decoration: none; }
+.mainheadertable_new .headerbutton_red { font-size: 1.2em; font-family: "PFSquareSansPro-Regular"; line-height: 30px; display: inline-block; padding: 0px 40px; text-transform: uppercase; border-radius: 40px; color: rgb(255, 255, 255); background-color: rgb(197, 22, 29); border: 2px solid rgb(255, 255, 255); }
+.mainheadertable_new .headertable.lefttable .headerbutton_red { margin-right: 30px; }
+.mainheadertable_new .headertable.righttable .headerbutton_red { margin-left: 30px; }
+.buttonheader, .mainheadertable_new .headerbutton_red:hover { background-color: rgb(255, 255, 255) !important; color: rgb(197, 22, 29) !important; text-decoration: none; border: 2px solid rgb(197, 22, 29) !important; }
+.mainheadertable_new .logomainnew_new { width: 170px; height: auto; }
+.mainheadertable_new .headerbutton_video, .mainheadertable_new .headerbutton_soclink { height: 30px; width: auto; padding-left: 8px; display: inline-block; }
+.mainheadertable_new .headerbutton_video img, .mainheadertable_new .headerbutton_soclink img { height: 100%; width: auto; }
+.mainheadertable_new .headerbutton_video:hover, .mainheadertable_new .headerbutton_soclink:hover { text-decoration: none; }
+.mainheadertable_new .headertable.lefttable td { line-height: 40px; height: 50px; }
+.mainheadertable_new .headertable.righttable td { line-height: 50px; height: 50px; }
+.mainheadertable_new .headerphones_block, .mainheadertable_new .headerphone { display: inline-block; line-height: 20px; }
+.mainheadertable_new .headerphones_block { font-family: "PFSquareSansPro-Regular"; color: rgb(0, 0, 0); padding-right: 20px; text-align: right; }
+.mainheadertable_new .headerphones_block .headerphone a { color: rgb(0, 0, 0); }
+.mainheadertable_new .headerphones_block .headerphone a img { padding-right: 7px; }
+.hoverblock { position: relative; display: block; cursor: pointer; }
+.hoverblock img.img_club { width: 100%; height: auto; }
+.hoverblock .club_infoblock { position: absolute; top: 0px; left: 0px; width: 100%; }
+.hoverblock .club_infoblock .hiddenblock { display: none; padding-right: 20%; margin-top: 5%; }
+.hoverblock:hover .club_infoblock .hiddenblock { display: block; }
+.hoverblock:hover img.img_club { opacity: 0.3; }
+.wrapper > .content { max-width: 100%; overflow-x: auto; overflow-y: hidden; }
+.mainpage_new .content { overflow-x: hidden; }
+.hoverblock .nameclub { text-transform: uppercase; position: relative; width: 100%; padding-right: 20%; padding-top: 7%; text-align: right; line-height: 3em; }
+.nameclub .name1 { font-size: 32px; font-family: "PFSquareSansPro-BoldItalic"; color: rgb(197, 22, 29); }
+.nameclub .name2 { font-size: 32px; font-family: "PFSquareSansPro-Italic"; color: rgb(0, 0, 0); }
+.iconmainimage { width: 30px; height: 30px; }
+.text1_hiddenblock { text-transform: uppercase; font-size: 1.5em; font-family: "PFSquareSansPro-MediumItalic"; color: rgb(197, 22, 29); }
+.text2_hiddenblock { text-transform: uppercase; font-size: 1.1em; font-family: "PFSquareSansPro-Italic"; color: rgb(0, 0, 0); }
+.textcolumn { width: 100%; padding-right: 10px; padding-bottom: 5px; padding-top: 5px; min-height: 35px; height: 35px; line-height: 0.9em; }
+.iconcolumn { vertical-align: middle; }
+.club_block_container { padding: 0px; }
+@media (max-width: 1200px) {
+  html .hoverblock .nameclub { padding-top: 5px; }
+  .hoverblock .club_infoblock .hiddenblock { display: block; margin-top: 0px; padding-right: 30px; }
+  .hoverblock img.img_club { opacity: 0.3; }
+  html .nameclub .name2 { font-size: 1.5em; line-height: 1em; font-family: "PFSquareSansPro-Italic"; color: rgb(0, 0, 0); }
+  html .text1_hiddenblock { font-size: 0.5em; }
+  html .text2_hiddenblock { font-size: 0.5em; }
+  .mainheadertable_new * { font-size: 0.75em; }
+  html .textcolumn { min-height: 40px; height: 40px; line-height: 0.7em; }
+}
+@media (max-width: 1400px) {
+  .nameclub .name1 { font-size: 2em; line-height: 1em; font-family: "PFSquareSansPro-BoldItalic"; color: rgb(197, 22, 29); }
+  .nameclub .name2 { font-size: 2em; line-height: 1em; font-family: "PFSquareSansPro-Italic"; color: rgb(0, 0, 0); }
+  .text1_hiddenblock { font-size: 1em; }
+  .text2_hiddenblock { font-size: 1em; }
+  .mainheadertable_new * { font-size: 0.95em; }
+  .headerbutton_red { margin-left: 15px !important; padding: 0px 15px !important; }
+  .headermenu_container .headermenu_item { font-size: 0.9em; }
+  .mainheadertable_new .headerphones_block { padding-right: 10px; }
+}
+@media (min-width: 1400px) {
+  html .textcolumn { min-height: 40px; height: 40px; line-height: 1.2em; }
+}
+#modalopen .modal-title { font-size: 20px; text-transform: uppercase; font-family: "PFSquareSansPro-Medium"; }
+#modalopen .modal-dialog { max-width: 100%; width: 800px; }
+#modalopen .modal-body { height: 450px; padding-left: 5px !important; padding-right: 5px !important; }
+@media (min-width: 800px) {
+}
+.modal-ssm { width: 450px; }
+html body .modal-ssm .modal-body { padding-left: 0px; padding-right: 0px; }
+.modal-ssm .modal-title { display: inline-block; font-size: 20px; }
